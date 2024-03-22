@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tool Selector</title>
+<style>
+    /* Container for the image links, link buttons, and tools */
+    .container {
+      display: flex;
+      align-items: flex-start;
+      height: 100vh; /* Set container height to full viewport height */
+    }
+
+    /* Style for the left section containing the logo */
+    .left-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    /* Style for the link buttons */
+    .link-buttons {
+      display: flex;
+      flex-direction: column; /* Stack buttons vertically */
+    }
+    .link-btn {
+      border: none;
+      padding: 1vh .5vh;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      margin-bottom: 5px; /* Adjust spacing between buttons */
+      text-decoration: none;
+      color: black;
+      height:2vw;
+      font-size:3vw;
+    }
+
+
+    /* Style for the image link */
+    .image-link {
+      margin-top: 20px;
+      width: 25%;
+      height: 10vw;
+    }
+    .logo {
+      margin-right: 20px; /* Add space to the right of the image */
+      height: 25vw;
+      width: 100%
+    }
+  
+</style>
+</head>
+<body>
+
+<div class="container">
+  <!-- Left section with the logo and image link -->
+  <div class="left-section">
+    <img src="/Users/jacob/Downloads/AQITable.png" alt="Logo" class="logo">
+
+  </div>
+
+  <!-- Link buttons -->
+  <div class="link-buttons">
+    <a href="#" class="image-link"><img src="/Users/jacob/Downloads/AQINNT2.png" alt="Image Link" style="height:90%;"></a>
+    <a href="https://jss37.github.io/" class="link-btn active" >- General Population</a>
+    <a href="#" class="link-btn" >-ASCVD</a>
+    <a href="#" class="link-btn" >-COPD or Asthma</a>
+  </div>
+
+ 
+
+
+</body>
+</html>
